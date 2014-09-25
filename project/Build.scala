@@ -13,8 +13,9 @@ object Build extends Build {
 
     // dependencies
     libraryDependencies ++= Seq(
-	"org.jsoup" % "jsoup" % "1.7.2",
-	"org.scalatest" %% "scalatest" % "1.9.2" % "test"
+      "org.jsoup" % "jsoup" % "1.7.2",
+      "org.scalatest" %% "scalatest" % "1.9.2" % "test",
+      "org.mockito" % "mockito-all" % "1.8.4" % "test"
     ),
     resolvers += "sonatypeSnapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
 
